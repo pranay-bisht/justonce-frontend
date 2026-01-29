@@ -9,25 +9,27 @@ export default function EmailForm() {
   const submit = async (e) => {
     e.preventDefault();
 
-    // reset states
     setMessage("");
     setError("");
     setLoading(true);
 
     try {
-      const res = await fetch("http://localhost:8080/api/subscribe", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ email }),
-      });
+      const res = await fetch(
+        `${process.env.REACT_APP_API_URL}/api/subscribe`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ email }),
+        }
+      );
 
       if (!res.ok) {
         throw new Error("Request failed");
       }
 
-      setMessage("You’re not alone. Support is on the way.");
+      setMessage("You’re not alone. A pause is on its way.");
       setEmail("");
     } catch (err) {
       setError("Something went wrong. Please try again.");
