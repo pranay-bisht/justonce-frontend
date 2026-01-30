@@ -19,21 +19,21 @@ export default function Resources() {
         <ul className="resource-list">
           <li>
             <a
-              href="https://www.health.harvard.edu/mind-and-mood/the-habit-loop"
+              href="https://uwo.ca/se/thrive/blog/2024/the-science-behind-habits-how-the-brain-forms-and-breaks-them.html"
               target="_blank"
               rel="noopener noreferrer"
             >
-              The habit loop — how routines form and repeat (Harvard Health)
+              The Science Behind Habits: How the Brain Forms and Breaks Them (Western University)
             </a>
           </li>
 
           <li>
             <a
-              href="https://www.apa.org/monitor/2015/03/habits"
+              href="https://www.psychologytoday.com/us/basics/habit-formation"
               target="_blank"
               rel="noopener noreferrer"
             >
-              How habits shape behavior (American Psychological Association)
+              Habit Formation (Psychology-today)
             </a>
           </li>
 
@@ -52,21 +52,21 @@ export default function Resources() {
         <ul className="resource-list">
           <li>
             <a
-              href="https://www.ncpgambling.org/help-treatment/understanding-gambling-addiction/"
+              href="https://www.researchgate.net/publication/309282098_Understanding_the_psychology_of_mobile_gambling_A_behavioural_synthesis"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Understanding gambling behavior (National Council on Problem Gambling)
+              Understanding the psychology of mobile gambling: A behavioural synthesis (National Council on Problem Gambling)
             </a>
           </li>
 
           <li>
             <a
-              href="https://www.bbc.com/future/article/20150707-the-psychology-of-gambling"
+              href="https://responsiblegambling.org/for-the-public/about-gambling/the-science-behind-gambling/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              The psychology behind gambling decisions (BBC Future)
+              The Science Behind Gambling (Responsible Gambling Council)
             </a>
           </li>
         </ul>
@@ -76,6 +76,7 @@ export default function Resources() {
           JustOnce is not therapy and does not replace professional help.
           If gambling is causing significant distress or harm,
           speaking with a qualified mental health professional can be valuable.
+          We offer newsletters, focused on reflection rather than action.
         </p>
       </main>
 
