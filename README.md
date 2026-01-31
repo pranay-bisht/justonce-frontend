@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# JustOnce
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+JustOnce is a minimal web application designed to create a pause between impulse and action.
 
-## Available Scripts
+It is not therapy, not treatment, and not a replacement for professional help.  
+The project focuses on awareness, restraint, and ethical design.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🌱 What JustOnce Does
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Collects emails from users who voluntarily opt in
+- Stores emails securely in a PostgreSQL database
+- Sends **occasional, opt-in newsletters** designed as quiet reflections
+- Avoids tracking, profiling, or behavioral manipulation
+- Uses automation responsibly and transparently
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The goal is not to tell users what to do — only to slow the moment.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚠️ Important Disclaimer
 
-### `npm run build`
+**JustOnce is not therapy and does not replace professional help.**  
+If gambling is causing significant distress or harm, speaking with a qualified mental health professional can be valuable.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+We offer occasional newsletters — quiet thoughts designed to slow things down, not tell users what to do.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🧠 Design Philosophy
 
-### `npm run eject`
+JustOnce is intentionally limited.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- No daily emails
+- No behavior tracking
+- No personalization based on activity
+- No motivational or coaching language
+- No urgency or pressure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Every design choice favors restraint over engagement.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🏗️ Tech Stack
 
-## Learn More
+### Frontend
+- React (Create React App)
+- Deployed on Vercel
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Backend
+- Spring Boot (Java)
+- REST API
+- Deployed on Render
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Database
+- PostgreSQL (Render managed database)
 
-### Code Splitting
+### Email System
+- Automated scheduling via backend
+- Email provider integration (e.g. Resend / SendGrid)
+- Clear unsubscribe boundaries
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### AI (Optional / Planned)
+- AI-generated reflections
+- Strict prompt constraints
+- One shared message per batch (no per-user targeting)
+- Manual review before full automation
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🔁 System Architecture
