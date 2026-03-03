@@ -59,14 +59,3 @@ Every design choice favors restraint over engagement.
 ### Email System
 - Automated scheduling via backend
 - Email provider integration (e.g. Resend / SendGrid)
-- Clear unsubscribe boundaries
-
-### AI (Optional / Planned)
-- AI-generated reflections
-- Strict prompt constraints
-- One shared message per batch (no per-user targeting)
-- Manual review before full automation
-
----
-
-## 🔁 System Architecture
